@@ -103,7 +103,13 @@ The Gulp tasks are defined in gulpfile.js. Here’s a breakdown of the main task
 
 ## Additional Notes
 
-Ensure live-server is globally installed (npm install -g live-server) for the live-reloading feature to work.
+Ensure live-server is globally installed
+
+```bash
+npm install -g live-server
+```
+
+for the live-reloading feature to work.
 Modify paths and configurations in gulpfile.js as per your project structure and requirements.
 
 ## License
