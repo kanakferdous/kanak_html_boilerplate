@@ -10,6 +10,7 @@ A boilerplate project for front-end development using Gulp, Sass, and SVG sprite
 - [Folder Structure](#folder-structure)
 - [Additional Notes](#additional-notes)
 - [License](#license)
+- [How To Use SVG Icons](#how-to-use-svg-icons)
 
 # Installation
 
@@ -112,7 +113,7 @@ npm install -g live-server
 for the live-reloading feature to work.
 Modify paths and configurations in gulpfile.js as per your project structure and requirements.
 
-## For Icon Uses
+## How To Use SVG Icons
 
 this will generate the icons id with the name of icons. so try to use proper name that you can understand you are using icons.
 
