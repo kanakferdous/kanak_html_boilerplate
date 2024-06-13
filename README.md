@@ -15,17 +15,21 @@ A boilerplate project for front-end development using Gulp, Sass, and SVG sprite
 
 Clone the repository and navigate into the project directory:
 
-cmd: git clone https://github.com/kanakferdous/kanak_html_boilerplate.git
-cmd: cd your-repo
+```bash
+git clone https://github.com/kanakferdous/kanak_html_boilerplate.git
+cd your-repo
+```
 
 # Install dependencies using npm:
 
 Node version should be 18.15.0
 If you don't have it please run:
 
-cmd: nvm install 18.15.0
-cmd: nvm use 18.15.0
-cmd: npm install
+```bash
+nvm install 18.15.0
+nvm use 18.15.0
+npm install
+```
 
 This will install all necessary packages defined in package.json, including Gulp and its plugins.
 
@@ -35,7 +39,9 @@ This will install all necessary packages defined in package.json, including Gulp
 
 To start the development environment, run:
 
-cmd: npm run watch
+```bash
+- npm run watch
+```
 
 This command will compile Sass to CSS, minify JavaScript, generate SVG sprites, start a live-reloading server, and watch for changes in relevant files (scss, js, svg).
 
@@ -43,17 +49,21 @@ This command will compile Sass to CSS, minify JavaScript, generate SVG sprites, 
 
 For a production-ready build (minified and optimized files), run:
 
-cmd: npm run build
+```bash
+npm run build
+```
 
 This command will compile Sass, minify JavaScript, and generate SVG sprites without starting a live server or watching for changes.
 
 ## Available Scripts
 
-- npm run build: Runs the Gulp build task to compile assets for production.
-- npm run style: Runs the Gulp task to compile Sass files to CSS.
-- npm run script: Runs the Gulp task to minify JavaScript files.
-- npm run icons: Runs the Gulp task to generate SVG sprites from icons.
-- npm run watch: Starts the development environment with live-reloading and watches for changes.
+```bash
+npm run build: Runs the Gulp build task to compile assets for production.
+npm run style: Runs the Gulp task to compile Sass files to CSS.
+npm run script: Runs the Gulp task to minify JavaScript files.
+npm run icons: Runs the Gulp task to generate SVG sprites from icons.
+npm run watch: Starts the development environment with live-reloading and watches for changes.
+```
 
 ## Gulp Tasks
 
