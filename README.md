@@ -3,13 +3,13 @@ A boilerplate project for front-end development using Gulp, Sass, and SVG sprite
 
 ## Table of Contents
 
-- Installation
-- Usage
-- Available Scripts
-- Gulp Tasks
-- Folder Structure
-- Additional Notes
-- License
+- [Installation](#installation)
+- [Usage](#usage)
+- [Available Scripts](#available-scripts)
+- [Gulp Tasks](#gulp-tasks)
+- [Folder Structure](#folder-structure)
+- [Additional Notes](#additional-notes)
+- [License](#license)
 
 # Installation
 
@@ -40,7 +40,7 @@ This will install all necessary packages defined in package.json, including Gulp
 To start the development environment, run:
 
 ```bash
-- npm run watch
+npm run watch
 ```
 
 This command will compile Sass to CSS, minify JavaScript, generate SVG sprites, start a live-reloading server, and watch for changes in relevant files (scss, js, svg).
@@ -57,12 +57,34 @@ This command will compile Sass, minify JavaScript, and generate SVG sprites with
 
 ## Available Scripts
 
+Runs the Gulp build task to compile assets for production.
+
 ```bash
-npm run build: Runs the Gulp build task to compile assets for production.
-npm run style: Runs the Gulp task to compile Sass files to CSS.
-npm run script: Runs the Gulp task to minify JavaScript files.
-npm run icons: Runs the Gulp task to generate SVG sprites from icons.
-npm run watch: Starts the development environment with live-reloading and watches for changes.
+npm run build
+```
+
+Runs the Gulp task to compile Sass files to CSS.
+
+```bash
+npm run style
+```
+
+Runs the Gulp task to minify JavaScript files.
+
+```bash
+npm run script
+```
+
+Runs the Gulp task to generate SVG sprites from icons.
+
+```bash
+npm run icons
+```
+
+Starts the development environment with live-reloading and watches for changes.
+
+```bash
+npm run watch
 ```
 
 ## Gulp Tasks
