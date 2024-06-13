@@ -1,20 +1,18 @@
 Project Name
 A boilerplate project for front-end development using Gulp, Sass, and SVG sprites.
 
-# Table of Contents
+## Table of Contents
 
-=================================
--> Installation
--> Usage
--> Available Scripts
--> Gulp Tasks
--> Folder Structure
--> Additional Notes
--> License
+- Installation
+- Usage
+- Available Scripts
+- Gulp Tasks
+- Folder Structure
+- Additional Notes
+- License
 
 # Installation
 
-=================================
 Clone the repository and navigate into the project directory:
 
 cmd: git clone https://github.com/your-username/your-repo.git
@@ -31,9 +29,7 @@ cmd: npm install
 
 This will install all necessary packages defined in package.json, including Gulp and its plugins.
 
-# Usage
-
-=================================
+## Usage
 
 # Development Mode
 
@@ -51,18 +47,16 @@ cmd: npm run build
 
 This command will compile Sass, minify JavaScript, and generate SVG sprites without starting a live server or watching for changes.
 
-# Available Scripts
+## Available Scripts
 
-=================================
 --> npm run build: Runs the Gulp build task to compile assets for production.
 --> npm run style: Runs the Gulp task to compile Sass files to CSS.
 --> npm run script: Runs the Gulp task to minify JavaScript files.
 --> npm run icons: Runs the Gulp task to generate SVG sprites from icons.
 --> npm run watch: Starts the development environment with live-reloading and watches for changes.
 
-# Gulp Tasks
+## Gulp Tasks
 
-=================================
 gulpfile.js
 The Gulp tasks are defined in gulpfile.js. Here’s a breakdown of the main tasks:
 
@@ -92,13 +86,11 @@ The Gulp tasks are defined in gulpfile.js. Here’s a breakdown of the main task
 --> gulpfile.js: Defines Gulp tasks for compiling Sass, minifying JS, generating SVG sprites, and starting the live server.
 --> package.json: Lists dependencies and defines scripts for running Gulp tasks.
 
-# Additional Notes
+## Additional Notes
 
-=================================
 Ensure live-server is globally installed (npm install -g live-server) for the live-reloading feature to work.
 Modify paths and configurations in gulpfile.js as per your project structure and requirements.
 
-# License
+## License
 
-=================================
 ISC License. See LICENSE for details.
