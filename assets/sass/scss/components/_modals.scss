@@ -1,0 +1,83 @@
+// Modals CSS
+// Modal overlay
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: $z-index-modal; // Use z-index variable from variables.scss
+}
+
+.modal-open {
+  display: flex;
+}
+
+// Modal dialog
+.modal-dialog {
+  background-color: #fff;
+  max-width: 600px; /* Adjust as needed */
+  padding: 20px;
+  border-radius: $border-radius; // Use border-radius variable from variables.scss
+  box-shadow: $box-shadow; // Use box-shadow variable from variables.scss
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity $animation-duration $ease-in-out,
+    transform $animation-duration $ease-in-out;
+}
+
+.modal-open .modal-dialog {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.modal-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.modal-body {
+  padding-bottom: 10px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.modal-footer button {
+  margin-left: 10px;
+}
+
+// Close button
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+// Example responsive modal styles
+@media (max-width: $breakpoint-sm) {
+  .modal-dialog {
+    width: 90%;
+    max-width: none;
+  }
+}

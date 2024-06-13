@@ -2,8 +2,6 @@
 node_modules/
 
 # Dependency directories
-package-lock.json
-package.json
 
 # Browserslist configuration
 .browserslistrc

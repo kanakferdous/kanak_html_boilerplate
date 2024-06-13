@@ -1,8 +1,27 @@
-body {
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-}
+// Import base styles
+@import "base/variables";
+@import "base/reset";
+@import "base/typography";
+@import "base/utilities";
+
+// Import components
+@import "components/buttons";
+@import "components/carousel";
+@import "components/modals";
+
+// Import layout
+@import "layout/header";
+@import "layout/footer";
+@import "layout/grid";
+
+// Import pages
+@import "pages/home";
+@import "pages/about";
+@import "pages/contact";
+
+// Import themes
+@import "themes/theme-default";
+@import "themes/theme-dark";
+
+// Import third-party vendors (e.g., Bootstrap)
+@import "vendors/bootstrap";

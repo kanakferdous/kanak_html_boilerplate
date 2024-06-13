@@ -112,6 +112,16 @@ npm install -g live-server
 for the live-reloading feature to work.
 Modify paths and configurations in gulpfile.js as per your project structure and requirements.
 
+## For Icon Uses
+
+this will generate the icons id with the name of icons. so try to use proper name that you can understand you are using icons.
+
+```html
+<svg class="icon">
+  <use xlink:href="assets/icons/sprite.svg#icon-name"></use>
+</svg>
+```
+
 ## License
 
 ISC License. See LICENSE for details.

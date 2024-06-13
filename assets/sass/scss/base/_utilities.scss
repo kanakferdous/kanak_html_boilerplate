@@ -1,0 +1,72 @@
+// Utility classes for text alignment
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+// Utility classes for margin and padding
+.m-0 {
+  margin: 0;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+// Add more margin and padding utilities as needed
+
+// Utility classes for display
+.d-block {
+  display: block;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+// Utility classes for colors
+.text-primary {
+  color: #007bff; /* Example color */
+}
+
+.bg-primary {
+  background-color: #007bff; /* Example background color */
+}
+
+// Additional utility classes for border, width, height, etc.
+
+// Example responsive utility classes
+@media (max-width: 768px) {
+  .text-center-sm {
+    text-align: center;
+  }
+
+  .d-block-sm {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-center-lg {
+    text-align: center;
+  }
+
+  .d-block-lg {
+    display: block;
+  }
+}

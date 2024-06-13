@@ -1,0 +1,86 @@
+// Grid CSS
+@import "../base/variables";
+
+// Container
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: $breakpoint-sm) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: $breakpoint-xl) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+// Row
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+// Columns
+.col {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: $breakpoint-sm) {
+  .col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-auto {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .col {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .col {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media (min-width: $breakpoint-xl) {
+  .col {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}

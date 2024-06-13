@@ -1,0 +1,47 @@
+// Colors
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$success-color: #28a745;
+$info-color: #17a2b8;
+$warning-color: #ffc107;
+$danger-color: #dc3545;
+
+// Typography
+$body-font-family: "Roboto", sans-serif;
+$heading-font-family: "Open Sans", sans-serif;
+$base-font-size: 16px;
+$line-height: 1.5;
+
+// Spacing
+$spacing-unit: 1rem;
+$spacing-small: 0.5rem;
+$spacing-medium: 1rem;
+$spacing-large: 2rem;
+
+// Breakpoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// Z-index
+$z-index-modal: 1050;
+$z-index-dropdown: 1000;
+$z-index-sticky: 1020;
+
+// Border radius
+$border-radius: 0.25rem;
+
+// Box shadows
+$box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+$box-shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+
+// Animation durations
+$animation-duration: 0.3s;
+$animation-duration-slow: 0.5s;
+$animation-duration-fast: 0.2s;
+
+// Easing functions
+$ease-in-out: cubic-bezier(0.5, 0, 0.1, 1);
+
+// Other variables as needed
