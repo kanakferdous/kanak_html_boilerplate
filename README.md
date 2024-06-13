@@ -1,4 +1,4 @@
-Project Name
+Ferdous Boilerplate
 A boilerplate project for front-end development using Gulp, Sass, and SVG sprites.
 
 ## Table of Contents
