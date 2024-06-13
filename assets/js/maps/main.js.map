@@ -1,0 +1,1 @@
+{"version":3,"file":"../main.js","names":["console","log"],"sources":["main.js"],"mappings":"AAAAA,QAAQC,IAAI,oBACZD,QAAQC,IAAI,qBACZD,QAAQC,IAAI,qBACZD,QAAQC,IAAI,SACZD,QAAQC,IAAI","ignoreList":[],"sourcesContent":["console.log(\"I am 8 years old\");\nconsole.log(\"I am 20 years old\");\nconsole.log(\"I am 40 years old\");\nconsole.log(\"Hello\");\nconsole.log(\"help me\");\n"]}
