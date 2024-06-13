@@ -15,7 +15,7 @@ A boilerplate project for front-end development using Gulp, Sass, and SVG sprite
 
 Clone the repository and navigate into the project directory:
 
-cmd: git clone https://github.com/your-username/your-repo.git
+cmd: git clone https://github.com/kanakferdous/kanak_html_boilerplate.git
 cmd: cd your-repo
 
 # Install dependencies using npm:
@@ -49,42 +49,25 @@ This command will compile Sass, minify JavaScript, and generate SVG sprites with
 
 ## Available Scripts
 
---> npm run build: Runs the Gulp build task to compile assets for production.
---> npm run style: Runs the Gulp task to compile Sass files to CSS.
---> npm run script: Runs the Gulp task to minify JavaScript files.
---> npm run icons: Runs the Gulp task to generate SVG sprites from icons.
---> npm run watch: Starts the development environment with live-reloading and watches for changes.
+- npm run build: Runs the Gulp build task to compile assets for production.
+- npm run style: Runs the Gulp task to compile Sass files to CSS.
+- npm run script: Runs the Gulp task to minify JavaScript files.
+- npm run icons: Runs the Gulp task to generate SVG sprites from icons.
+- npm run watch: Starts the development environment with live-reloading and watches for changes.
 
 ## Gulp Tasks
 
 gulpfile.js
 The Gulp tasks are defined in gulpfile.js. Here’s a breakdown of the main tasks:
 
---> style: Compiles Sass to CSS, adds vendor prefixes, and minifies CSS.
---> script: Minifies JavaScript files.
---> generateIcons: Generates an SVG sprite from individual SVG icons.
---> watch: Starts a live-reloading server and watches for changes in Sass, JavaScript, and SVG files.
-
-# Folder Structure
-
-/
-├── assets/
-│ ├── css/
-│ ├── icons/
-│ ├── js/
-│ └── sass/
-│ ├── scss/
-│ └── main.scss
-├── node_modules/
-├── .gitignore
-├── gulpfile.js
-├── package.json
-└── README.md
-
---> assets/: Contains development and compiled files.
---> .gitignore: Specifies files and directories to ignore in version control.
---> gulpfile.js: Defines Gulp tasks for compiling Sass, minifying JS, generating SVG sprites, and starting the live server.
---> package.json: Lists dependencies and defines scripts for running Gulp tasks.
+- style: Compiles Sass to CSS, adds vendor prefixes, and minifies CSS.
+- script: Minifies JavaScript files.
+- generateIcons: Generates an SVG sprite from individual SVG icons.
+- watch: Starts a live-reloading server and watches for changes in Sass, JavaScript, and SVG files.
+- assets/: Contains development and compiled files.
+- .gitignore: Specifies files and directories to ignore in version control.
+- gulpfile.js: Defines Gulp tasks for compiling Sass, minifying JS, generating SVG sprites, and starting the live server.
+- package.json: Lists dependencies and defines scripts for running Gulp tasks.
 
 ## Additional Notes
 
