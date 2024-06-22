@@ -1,13 +1,6 @@
 # Node modules
 node_modules/
 
-# Dependency directories
-package-lock.json
-package.json
-
-# Browserslist configuration
-.browserslistrc
-
 # Optional npm cache directory
 .npm
 
