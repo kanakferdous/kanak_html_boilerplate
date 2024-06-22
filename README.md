@@ -93,6 +93,12 @@ npm run watch
 gulpfile.js
 The Gulp tasks are defined in gulpfile.js. Here’s a breakdown of the main tasks:
 
+- If Gulp SASS not working please run:
+
+```bash
+npm install gulp-sass --save-dev
+```
+
 - style: Compiles Sass to CSS, adds vendor prefixes, and minifies CSS.
 - script: Minifies JavaScript files.
 - generateIcons: Generates an SVG sprite from individual SVG icons.
