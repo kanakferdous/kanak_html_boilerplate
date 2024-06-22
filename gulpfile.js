@@ -5,6 +5,8 @@ const cleanCSS = require("gulp-clean-css");
 const terser = require("gulp-terser");
 const svgSprite = require("gulp-svg-sprite");
 const connect = require("gulp-connect");
+const postcss = require("gulp-postcss");
+const autoprefixer = require("autoprefixer");
 
 // Function to compile Sass to CSS
 function style() {
@@ -12,6 +14,7 @@ function style() {
     .src("./assets/sass/scss/**/*.scss")
     .pipe(sourcemaps.init())
     .pipe(sass().on("error", sass.logError))
+    .pipe(postcss([autoprefixer()]))
     .pipe(cleanCSS({ compatibility: "ie8" }))
     .pipe(sourcemaps.write("./maps"))
     .pipe(gulp.dest("./assets/css"))
